@@ -1,0 +1,91 @@
+body {
+  line-height: 1.5;
+  color: #101214;
+  font-family: 'Inter', sans-serif;
+  background-color: #f66e6a;
+}
+
+.box {
+  border-top: 10px solid black;
+  border-radius: 12px;   
+  margin: 50px 30%;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+  background-color: white;   
+}
+
+h1 {
+  font-size: 38px;
+  margin-bottom: 0;
+}
+
+.row {
+  display:flex;
+} /*tohle jsem vygooglila, neni to z moji hlavy*/
+
+.column-right {
+  width:66.66%;
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 0 0 0 12px;
+ 
+}
+
+.column-left {
+  width:33.33%;
+  padding: 20px 10px;
+  color: rgb(88, 87, 87);
+  font-weight: 380;
+}
+
+.profile-photo {
+  width: 70%;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+
+.linkedin-logo {
+  width: 10%;
+  height: 10%;
+}
+
+.facebook-logo {
+  width: 12%;
+  height: 12%;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+h3 {
+  margin-top: 0px;
+}
+
+h4 {
+  margin: 0 auto;
+}
+  
+h5 {
+  font-size: 14px;
+  font-weight: 380;
+  margin-bottom: 0;
+  margin-top: 0px;
+}
+
+.experience {
+  margin-top: 48px;
+}
+
+.footer {
+  text-align: center;
+  font-weight: 400;
+}
+
+.mailto{
+  color: black;
+}
+  
+  /*
+  Nevim, jak bych mohla srovnat .experience a .personal-details tak, aby mely stejny odestup od header a profile-photo. Pridala jsem div a ty jsem pak chtela zarovnat, ale nevim jak*/
