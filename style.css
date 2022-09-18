@@ -7,8 +7,9 @@ body {
 
 .box {
   border-top: 10px solid black;
-  border-radius: 12px;   
-  margin: 50px 30%;
+  border-radius: 12px; 
+  margin: 0 auto;
+  width: 700px;
   box-shadow: 0 3px 5px rgba(0,0,0,0.3);
   background-color: white;   
 }
@@ -24,10 +25,8 @@ h1 {
 
 .column-right {
   width:66.66%;
-  background-color: white;
   padding: 30px 40px;
   border-radius: 0 0 0 12px;
- 
 }
 
 .column-left {
@@ -88,4 +87,4 @@ h5 {
 }
   
   /*
-  Nevim, jak bych mohla srovnat .experience a .personal-details tak, aby mely stejny odestup od header a profile-photo. Pridala jsem div a ty jsem pak chtela zarovnat, ale nevim jak*/
+  Nevim, jak bych mohla srovnat .experience a .personal-details tak, aby mely stejny odestup od header a profile-photo. Pridala jsem div a ty jsem pak chtela zarovnat, ale nevedela jsem jak, tak jsem je zase smazala*/
