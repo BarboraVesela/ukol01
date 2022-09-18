@@ -8,7 +8,7 @@ body {
 .box {
   border-top: 10px solid black;
   border-radius: 12px; 
-  margin: 0 auto;
+  margin: 50px auto;
   width: 700px;
   box-shadow: 0 3px 5px rgba(0,0,0,0.3);
   background-color: white;   
